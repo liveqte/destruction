@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.liming2038.destruction.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ServerStartMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
